@@ -8,10 +8,10 @@ import io.smallrye.mutiny.Uni;
 import org.eclipse.microprofile.jwt.JsonWebToken;
 import org.hibernate.ObjectNotFoundException;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.inject.Inject;
-import javax.ws.rs.ClientErrorException;
-import javax.ws.rs.core.Response;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.inject.Inject;
+import jakarta.ws.rs.ClientErrorException;
+import jakarta.ws.rs.core.Response;
 import java.util.List;
 
 @ApplicationScoped

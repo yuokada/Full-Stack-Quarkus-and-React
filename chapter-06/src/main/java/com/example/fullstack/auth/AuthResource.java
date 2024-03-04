@@ -2,10 +2,10 @@ package com.example.fullstack.auth;
 
 import io.smallrye.mutiny.Uni;
 
-import javax.annotation.security.PermitAll;
-import javax.inject.Inject;
-import javax.ws.rs.POST;
-import javax.ws.rs.Path;
+import jakarta.annotation.security.PermitAll;
+import jakarta.inject.Inject;
+import jakarta.ws.rs.POST;
+import jakarta.ws.rs.Path;
 
 @Path("/api/v1/auth")
 public class AuthResource {
